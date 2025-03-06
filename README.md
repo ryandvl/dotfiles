@@ -13,6 +13,7 @@ The version is not required, but is recommended to avoid errors.
 
 ---
 
-## ⌨ Neovim
+## ⌨ Text Editor / IDE
 - **[Neovim](https://neovim.io/)** (`v0.10.4`)
+
 - **[LazyVim](https://www.lazyvim.org/)** (`v14.14.0`)
