@@ -1,5 +1,16 @@
 local set = vim.opt
 local cmd = vim.cmd
+local global = vim.g
 
-set.relativenumber = false
+-- Leader Key
+global.mapleader = " "
+
+-- Line Numbers
+-- set.relativenumber = false
 set.number = true
+
+-- Live Search
+set.inccommand = "split"
+
+-- No line wrap
+set.wrap = false
