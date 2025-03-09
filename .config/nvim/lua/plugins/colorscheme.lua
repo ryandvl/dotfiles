@@ -1,6 +1,16 @@
 -- Catpppuccin Color Scheme
 
 return {
+  -- Add cyberdream
+  {
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = function(_, opts)
+      opts.transparent = true
+    end,
+  },
+
   -- Add Catppuccin
   {
     "catppuccin/nvim",
@@ -11,11 +21,11 @@ return {
     },
   },
 
-  -- Configure LazyVim to load Catppuccin
+  -- Configure LazyVim to load theme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "cyberdream",
     },
   },
 }

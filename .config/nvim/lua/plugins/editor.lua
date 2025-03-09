@@ -1,9 +1,17 @@
 return {
   {
+    -- Highlight Colors
+    {
+      "echasnovski/mini.hipatterns",
+      event = "BufReadPre",
+      opts = {},
+    },
+
+    -- Telescope
     "nvim-telescope/telescope.nvim",
     keys = {
       {
-        ";f",
+        "<leader><space>",
         function()
           local builtin = require("telescope.builtin")
 
@@ -15,7 +23,6 @@ return {
         desc = "Lists files in your current working directory, respect .gitignore",
       },
     },
-    -- change some options
     opts = {
       defaults = {
         layout_strategy = "horizontal",

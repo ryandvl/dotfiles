@@ -17,6 +17,6 @@ The version is not required, but is recommended to avoid errors.
 
 ## ⌨ Text Editor / IDE
 
-I use **[Neovim](https://neovim.io/)** (`v0.10.4`)
+I use **[Neovim](https://neovim.io/)** (`v0.10.4`) since March 2025.
 
 - **[LazyVim](https://www.lazyvim.org/)** (`v14.14.0`)

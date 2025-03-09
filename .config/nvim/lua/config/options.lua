@@ -6,7 +6,7 @@ local global = vim.g
 global.mapleader = " "
 
 -- Line Numbers
--- set.relativenumber = false
+set.relativenumber = false
 set.number = true
 
 -- Live Search
@@ -14,3 +14,12 @@ set.inccommand = "split"
 
 -- No line wrap
 set.wrap = false
+
+-- Tab
+set.tabstop = 2
+set.shiftwidth = 2
+set.softtabstop = 0
+set.expandtab = true
+
+-- Enable 24-bit colors
+set.termguicolors = true
