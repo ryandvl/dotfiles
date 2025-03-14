@@ -19,6 +19,8 @@ return {
         "typescript",
         "tsx",
 
+        "go",
+
         "lua",
         "python",
       },

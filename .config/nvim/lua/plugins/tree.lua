@@ -13,8 +13,8 @@ return {
         mappings = {
           ["Y"] = "none",
           ["<space>"] = "none",
-          ["<esc>"] = function()
-            vim.api.nvim_exec2("wincmd p", {})
+          ["<C-c>"] = function()
+            vim.api.nvim_exec2("wincmd l", {})
           end,
         },
       },

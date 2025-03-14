@@ -23,3 +23,7 @@ set.expandtab = true
 
 -- Enable 24-bit colors
 set.termguicolors = true
+
+-- Python
+global.lazyvim_python_lsp = "pyright"
+global.lazyvim_python_ruff = "ruff"
