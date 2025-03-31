@@ -17,6 +17,8 @@ The version is not required, but is recommended to avoid errors.
 
 ## ⌨ Text Editor / IDE
 
-I use **[Neovim](https://neovim.io/)** (`v0.10.4`) since March 2025.
-
+I was using **[Neovim](https://neovim.io/)** (`v0.10.4`) in March 2025.
 - **[LazyVim](https://www.lazyvim.org/)** (`v14.14.0`)
+
+But I moved back to **[Visual Studio Code](https://code.visualstudio.com/)**, and now i use **[Vim extension](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)** (It's amazing, i really like it)
+- You can view the configurations at **[ryandvl/vscode-config](https://github.com/ryandvl/vscode-config/)**
